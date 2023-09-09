@@ -31,10 +31,6 @@
     "eject": "react-scripts eject",
     "lint:fix": "eslint --fix --ext .js,.jsx ."
   },
-  "max-line-length": [
-    true,
-    1400
-  ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -52,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-plugin-react-func": "^0.1.18"
   }
 }
