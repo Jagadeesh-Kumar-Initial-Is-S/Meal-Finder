@@ -11,6 +11,11 @@ const MealImage = ({ meals }) => (
       <h1>{meals.strMeal}</h1>
       {meals.strArea ? <h3>{meals.strArea}</h3> : ''}
     </Content>
+    <Content>
+      <div>
+        <Link to={`${meals.strYoutube}`}>Watch Video</Link>
+      </div>
+    </Content>
   </Link>
 );
 
@@ -18,6 +23,7 @@ MealImage.propTypes = {
   meals: PropTypes.shape({
     idMeal: PropTypes.string.isRequired,
     strMealThumb: PropTypes.string.isRequired,
+    strYoutube: PropTypes.string.isRequired,
     strMeal: PropTypes.string.isRequired,
     strArea: PropTypes.string,
   }).isRequired,
