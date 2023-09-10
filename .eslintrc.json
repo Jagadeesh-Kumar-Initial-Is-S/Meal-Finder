@@ -26,17 +26,17 @@
   ]
 }
 
-{
-  "rules": {
-    "react-func/max-lines-per-function": [
-      "warn",
-        {
-          "max": 250,
-          "skipBlankLines": true,
-          "skipComments": true,
-          "IIFEs": true
-        }
-     ],
-  },
-    "plugins": ["react-func"]
-}
+// {
+//   "rules": {
+//     "react-func/max-lines-per-function": [
+//       "warn",
+//         {
+//           "max": 250,
+//           "skipBlankLines": true,
+//           "skipComments": true,
+//           "IIFEs": true
+//         }
+//      ],
+//   },
+//     "plugins": ["react-func"]
+// }
